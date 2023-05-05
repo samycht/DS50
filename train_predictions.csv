@@ -1,0 +1,7 @@
+image_id,label,normal,adenocarcinoma,largecell_carcinoma,squamouscell_carcinoma
+images/valid/normal/7.png,0,1.0,1.2226847e-07,0.0,4.9919445e-24
+images/valid/normal/6 - Copy (3).png,0,1.0,0.0003650822,1.0946398e-19,4.7762215e-12
+images/valid/normal/004007_01_01_519.png,0,1.0,0.030355996,1.5532147e-07,6.383297e-05
+images/valid/normal/7 - Copy (2).png,0,1.0,1.1728659e-08,0.0,1.9156199e-27
+images/valid/normal/6 - Copy.png,0,1.0,1.2539715e-05,1.1051788e-28,2.8559023e-17
+images/valid/normal/4 (2).png,0,1.0,0.0003071141,3.1626866e-20,2.766628e-12

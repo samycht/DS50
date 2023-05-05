@@ -1,0 +1,73 @@
+image_id,label,normal,adenocarcinoma,largecell_carcinoma,squamouscell_carcinoma
+images/valid/normal/7.png,0,1.0,0.00016563035,0.0,2.7632205e-35
+images/valid/normal/6 - Copy (3).png,0,1.0,0.01671829,6.734538e-23,9.584891e-17
+images/valid/normal/004007_01_01_519.png,0,1.0,0.775732,1.5704494e-09,1.5189039e-06
+images/valid/normal/7 - Copy (2).png,0,1.0,3.7198162e-05,0.0,0.0
+images/valid/normal/6 - Copy.png,0,1.0,0.0033039858,8.393401e-29,3.6538482e-21
+images/valid/normal/4 (2).png,0,1.0,0.20496483,6.7201732e-21,5.919769e-15
+images/valid/normal/003828_02_01_174.png,0,1.0,0.002687598,5.132748e-26,2.8502292e-19
+images/valid/normal/4 - Copy (2).png,0,1.0,0.18366018,7.860628e-23,2.5254078e-16
+images/valid/normal/5.png,0,1.0,0.11210624,2.097344e-25,2.8318392e-18
+images/valid/normal/004162_01_01_150.png,0,1.0,0.03425542,6.035451e-20,1.1575808e-14
+images/valid/normal/7 - Copy (3).png,0,1.0,0.00016563035,0.0,2.7632205e-35
+images/valid/normal/6 - Copy (2) - Copy.png,0,1.0,0.0033039858,8.393401e-29,3.6538482e-21
+images/valid/normal/8 - Copy (3).png,0,1.0,2.4815738e-05,0.0,4.862904e-35
+images/valid/adenocarcinoma/000109 (8).png,1,0.22416122,0.6318533,0.58143646,0.6231716
+images/valid/adenocarcinoma/000109 (3).png,1,0.08830231,0.7625529,0.6253499,0.72386336
+images/valid/adenocarcinoma/000115.png,1,0.07850157,0.7363987,0.654881,0.7285413
+images/valid/adenocarcinoma/000115 (2).png,1,0.063918844,0.7603426,0.6634151,0.7467299
+images/valid/adenocarcinoma/000116 (5).png,1,0.0712428,0.7509504,0.65822077,0.7380395
+images/valid/adenocarcinoma/000115 (9).png,1,0.024096899,0.8339535,0.7138614,0.8161244
+images/valid/adenocarcinoma/000113 (3).png,1,0.07648522,0.7455639,0.65180993,0.7312838
+images/valid/adenocarcinoma/000117.png,1,0.17610444,0.72732836,0.562035,0.6623665
+images/valid/adenocarcinoma/000116 (8).png,1,0.16575699,0.66309583,0.60600173,0.6570283
+images/valid/adenocarcinoma/000108 (7).png,1,0.04123737,0.8014277,0.6837372,0.7809656
+images/valid/adenocarcinoma/000112 (2).png,1,0.1649068,0.65652555,0.60971457,0.6564954
+images/valid/adenocarcinoma/000114.png,1,0.06754031,0.7503117,0.6629772,0.7409983
+images/valid/adenocarcinoma/000111 (2).png,1,0.026088523,0.83160067,0.7084405,0.8118213
+images/valid/adenocarcinoma/000116 (9).png,1,0.29002118,0.58168364,0.5691893,0.5894153
+images/valid/adenocarcinoma/000117 (6).png,1,0.19372682,0.64135855,0.5982324,0.6405535
+images/valid/adenocarcinoma/000109 (4).png,1,0.083698995,0.73862654,0.64755213,0.72397536
+images/valid/adenocarcinoma/000108 (8).png,1,0.21832246,0.6417647,0.5799974,0.6271142
+images/valid/adenocarcinoma/000116 (3).png,1,0.15042634,0.71926343,0.58779895,0.67361677
+images/valid/adenocarcinoma/000114 (10).png,1,0.0979765,0.71944654,0.6392804,0.7090093
+images/valid/adenocarcinoma/000110 (7).png,1,0.17018461,0.65406424,0.6079424,0.6542294
+images/valid/adenocarcinoma/000113.png,1,0.14942712,0.6675947,0.6170448,0.66723907
+images/valid/adenocarcinoma/000115 (5).png,1,0.18162233,0.64709467,0.6030841,0.6463708
+images/valid/adenocarcinoma/000112 (9).png,1,0.04060142,0.80362713,0.68466043,0.7825298
+images/valid/large.cell.carcinoma/000111.png,2,0.1075464,0.71095794,0.63372546,0.70077926
+images/valid/large.cell.carcinoma/000118 (2).png,2,0.11184541,0.70660347,0.63215023,0.6972912
+images/valid/large.cell.carcinoma/000115.png,2,0.14967166,0.6724605,0.61535615,0.6673828
+images/valid/large.cell.carcinoma/000116.png,2,0.1906496,0.6478388,0.5970523,0.6416092
+images/valid/large.cell.carcinoma/000110.png,2,0.01948016,0.85396653,0.71804833,0.8298302
+images/valid/large.cell.carcinoma/000109.png,2,0.020669967,0.8425495,0.7217007,0.82511634
+images/valid/large.cell.carcinoma/000131.png,2,0.12038865,0.7013796,0.62621355,0.6904566
+images/valid/large.cell.carcinoma/000110 (2).png,2,0.11498063,0.71200794,0.62714493,0.695782
+images/valid/large.cell.carcinoma/000114.png,2,0.12908244,0.6896475,0.62373024,0.68261147
+images/valid/large.cell.carcinoma/000113 (2).png,2,0.19249399,0.6612074,0.58748174,0.64322567
+images/valid/large.cell.carcinoma/000111 (2).png,2,0.08345332,0.7414439,0.64639175,0.72520155
+images/valid/large.cell.carcinoma/000112.png,2,0.11160081,0.7020627,0.6336622,0.6970966
+images/valid/large.cell.carcinoma/000115 (3).png,2,0.27781174,0.5893574,0.5724325,0.5943151
+images/valid/large.cell.carcinoma/000128.png,2,0.1519435,0.6722804,0.61344,0.6664244
+images/valid/large.cell.carcinoma/000126.png,2,0.20689942,0.6306399,0.5947212,0.63120574
+images/valid/large.cell.carcinoma/000120.png,2,0.33903974,0.5632656,0.55395526,0.5655955
+images/valid/large.cell.carcinoma/000108.png,2,0.0878354,0.7317228,0.6461163,0.71996325
+images/valid/large.cell.carcinoma/000130.png,2,0.076584585,0.7447131,0.6538359,0.7317706
+images/valid/large.cell.carcinoma/000113.png,2,0.18310198,0.64886826,0.60126907,0.6456957
+images/valid/large.cell.carcinoma/000108 (2).png,2,0.19498552,0.64775443,0.5919886,0.63941634
+images/valid/large.cell.carcinoma/000122.png,2,0.101654485,0.71727836,0.63705367,0.70607644
+images/valid/squamous.cell.carcinoma/000111.png,3,0.0937497,0.7315715,0.6382962,0.7145187
+images/valid/squamous.cell.carcinoma/000117 (4).png,3,0.2557051,0.59909624,0.57954174,0.60553455
+images/valid/squamous.cell.carcinoma/000115 (2).png,3,0.07719521,0.7444861,0.6524927,0.73079103
+images/valid/squamous.cell.carcinoma/000114 (4).png,3,0.13973786,0.6878284,0.6143147,0.6759273
+images/valid/squamous.cell.carcinoma/000110 (6).png,3,0.2938919,0.73761487,0.48167482,0.6142998
+images/valid/squamous.cell.carcinoma/000114 (6).png,3,0.36607376,0.7164002,0.45917574,0.58578914
+images/valid/squamous.cell.carcinoma/000112.png,3,0.03004712,0.82064855,0.7020313,0.80238956
+images/valid/squamous.cell.carcinoma/000117 (6).png,3,0.042528562,0.79151964,0.68642867,0.7773538
+images/valid/squamous.cell.carcinoma/000119 (5).png,3,0.093940556,0.7268106,0.6408241,0.7138516
+images/valid/squamous.cell.carcinoma/000119.png,3,0.061950125,0.75913644,0.6669377,0.748136
+images/valid/squamous.cell.carcinoma/000115 (5).png,3,0.08946439,0.7357466,0.6407488,0.7187365
+images/valid/squamous.cell.carcinoma/000118 (5).png,3,0.27449495,0.58834404,0.5743365,0.59611547
+images/valid/squamous.cell.carcinoma/000118 (4).png,3,0.21254618,0.6240506,0.59285116,0.6286334
+images/valid/squamous.cell.carcinoma/000116 (2).png,3,0.1312977,0.6902418,0.62125933,0.6818272
+images/valid/squamous.cell.carcinoma/000108 (3).png,3,0.09935644,0.71699095,0.63949054,0.7077771
