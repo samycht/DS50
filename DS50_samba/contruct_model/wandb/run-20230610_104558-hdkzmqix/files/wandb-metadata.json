@@ -1,0 +1,43 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.5",
+    "heartbeatAt": "2023-06-10T08:45:59.002744",
+    "startedAt": "2023-06-10T08:45:58.088672",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "LAPTOP-0CMHHCSG",
+    "username": "galse",
+    "executable": "c:\\Users\\galse\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1400.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "total": 237.37335586547852,
+        "used": 220.3940315246582
+    },
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050",
+            "memory_total": 3221225472
+        }
+    ],
+    "memory": {
+        "total": 7.4387359619140625
+    }
+}

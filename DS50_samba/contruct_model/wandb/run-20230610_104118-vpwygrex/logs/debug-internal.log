@@ -1,0 +1,677 @@
+2023-06-10 10:41:18,791 INFO    StreamThr :8372 [internal.py:wandb_internal():86] W&B internal server running at pid: 8372, started at: 2023-06-10 10:41:18.788859
+2023-06-10 10:41:18,838 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: status
+2023-06-10 10:41:18,851 INFO    WriterThread:8372 [datastore.py:open_for_write():85] open: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\run-vpwygrex.wandb
+2023-06-10 10:41:18,853 DEBUG   SenderThread:8372 [sender.py:send():375] send: header
+2023-06-10 10:41:18,854 DEBUG   SenderThread:8372 [sender.py:send():375] send: run
+2023-06-10 10:41:19,752 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: check_version
+2023-06-10 10:41:19,776 INFO    SenderThread:8372 [dir_watcher.py:__init__():219] watching files in: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files
+2023-06-10 10:41:19,776 INFO    SenderThread:8372 [sender.py:_start_run_threads():1124] run started: vpwygrex with start time 1686386478.799853
+2023-06-10 10:41:19,777 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:19,780 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:19,781 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: check_version
+2023-06-10 10:41:20,043 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: run_start
+2023-06-10 10:41:20,086 DEBUG   HandlerThread:8372 [system_info.py:__init__():31] System info init
+2023-06-10 10:41:20,087 DEBUG   HandlerThread:8372 [system_info.py:__init__():46] System info init done
+2023-06-10 10:41:20,087 INFO    HandlerThread:8372 [system_monitor.py:start():181] Starting system monitor
+2023-06-10 10:41:20,097 INFO    SystemMonitor:8372 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-10 10:41:20,097 INFO    HandlerThread:8372 [system_monitor.py:probe():201] Collecting system info
+2023-06-10 10:41:20,117 INFO    SystemMonitor:8372 [interfaces.py:start():190] Started cpu monitoring
+2023-06-10 10:41:20,125 INFO    SystemMonitor:8372 [interfaces.py:start():190] Started disk monitoring
+2023-06-10 10:41:20,131 INFO    SystemMonitor:8372 [interfaces.py:start():190] Started gpu monitoring
+2023-06-10 10:41:20,162 INFO    SystemMonitor:8372 [interfaces.py:start():190] Started memory monitoring
+2023-06-10 10:41:20,163 DEBUG   HandlerThread:8372 [system_info.py:probe():195] Probing system
+2023-06-10 10:41:20,195 INFO    SystemMonitor:8372 [interfaces.py:start():190] Started network monitoring
+2023-06-10 10:41:20,218 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:20,219 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:20,223 DEBUG   HandlerThread:8372 [git.py:repo():40] git repository is invalid
+2023-06-10 10:41:20,223 DEBUG   HandlerThread:8372 [system_info.py:probe():240] Probing system done
+2023-06-10 10:41:20,224 DEBUG   HandlerThread:8372 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.5', 'heartbeatAt': '2023-06-10T08:41:20.174545', 'startedAt': '2023-06-10T08:41:18.756014', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'LAPTOP-0CMHHCSG', 'username': 'galse', 'executable': 'c:\\Users\\galse\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1400.0, 'min': 0.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 1400.0, 'min': 0.0, 'max': 2100.0}], 'disk': {'total': 237.37335586547852, 'used': 220.39176559448242}, 'gpu': 'NVIDIA GeForce GTX 1050', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050', 'memory_total': 3221225472}], 'memory': {'total': 7.4387359619140625}}
+2023-06-10 10:41:20,224 INFO    HandlerThread:8372 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-10 10:41:20,225 INFO    HandlerThread:8372 [system_monitor.py:probe():214] Publishing system info
+2023-06-10 10:41:20,225 DEBUG   HandlerThread:8372 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-10 10:41:20,228 DEBUG   HandlerThread:8372 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-10 10:41:20,232 INFO    HandlerThread:8372 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-10 10:41:20,235 DEBUG   SenderThread:8372 [sender.py:send():375] send: files
+2023-06-10 10:41:20,235 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-06-10 10:41:20,291 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-10 10:41:20,293 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: stop_status
+2023-06-10 10:41:20,548 DEBUG   SenderThread:8372 [sender.py:send():375] send: telemetry
+2023-06-10 10:41:20,780 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\requirements.txt
+2023-06-10 10:41:20,782 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-metadata.json
+2023-06-10 10:41:20,784 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:20,920 INFO    wandb-upload_0:8372 [upload_job.py:push():137] Uploaded file C:\Users\galse\AppData\Local\Temp\tmpk3o40q4lwandb\tt1pqktj-wandb-metadata.json
+2023-06-10 10:41:21,780 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\output.log
+2023-06-10 10:41:21,830 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:21,833 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:21,834 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:21,840 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:22,274 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:22,295 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:22,296 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:22,297 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:22,298 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:22,299 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:22,443 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:22,445 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:22,445 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:22,447 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:22,663 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:22,664 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:22,665 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:22,667 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:22,793 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\output.log
+2023-06-10 10:41:22,794 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:22,865 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:22,866 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:22,867 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:22,869 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:23,051 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:23,052 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:23,053 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:23,054 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:23,230 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:23,231 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:23,232 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:23,233 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:23,442 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:23,443 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:23,444 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:23,445 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:23,630 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:23,631 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:23,631 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:23,633 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:23,805 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:23,814 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:23,815 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:23,816 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:23,817 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:23,982 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:23,984 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:23,984 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:23,986 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: status_report
+2023-06-10 10:41:23,988 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:24,152 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:24,153 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:24,153 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:24,154 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:24,318 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:24,319 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:24,319 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:24,321 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:24,326 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:24,327 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:24,494 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:24,495 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:24,495 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:24,496 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:24,693 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:24,694 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:24,694 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:24,695 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:24,814 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:24,860 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:24,861 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:24,861 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:24,862 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:25,031 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:25,033 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:25,034 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:25,035 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:25,202 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:25,203 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:25,203 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:25,204 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:25,364 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:25,366 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:25,367 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:25,368 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:25,545 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:25,546 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:25,547 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:25,548 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:25,728 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:25,729 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:25,730 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:25,731 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:25,827 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:25,906 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:25,907 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:25,907 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:25,910 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:26,102 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:26,103 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:26,103 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:26,110 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:26,315 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:26,317 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:26,317 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:26,319 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:26,356 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:26,356 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:26,488 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:26,490 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:26,492 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:26,494 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:26,686 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:26,687 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:26,688 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:26,689 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:26,835 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:26,902 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:26,903 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:26,904 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:26,906 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:27,147 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:27,148 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:27,148 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:27,150 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:27,321 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:27,322 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:27,323 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:27,325 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:27,494 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:27,495 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:27,495 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:27,497 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:27,752 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:27,752 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:27,753 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:27,754 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:27,842 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:27,945 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:27,947 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:27,947 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:27,948 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:28,130 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:28,131 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:28,132 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:28,137 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:28,346 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:28,348 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:28,348 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:28,352 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:28,387 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:28,387 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:28,527 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:28,528 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:28,528 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:28,529 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:28,691 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:28,692 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:28,692 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:28,693 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:28,854 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:28,871 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:28,872 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:28,872 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:28,873 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:29,045 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:29,046 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:29,047 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:29,047 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: status_report
+2023-06-10 10:41:29,048 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:29,513 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:29,514 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:29,514 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:29,515 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:29,714 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:29,715 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:29,715 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:29,716 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:29,867 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:29,901 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:29,902 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:29,902 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:29,904 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:30,107 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:30,109 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:30,110 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:30,111 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:30,367 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:30,369 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:30,369 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:30,373 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:30,425 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:30,425 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:30,576 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:30,577 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:30,577 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:30,579 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:30,800 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:30,801 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:30,801 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:30,803 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:30,881 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:30,992 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:30,993 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:30,994 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:30,995 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:31,190 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:31,191 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:31,192 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:31,193 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:31,379 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:31,380 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:31,380 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:31,381 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:31,591 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:31,592 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:31,593 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:31,594 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:31,769 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:31,770 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:31,771 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:31,772 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:31,897 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:32,051 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:32,053 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:32,053 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:32,054 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:32,235 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:32,236 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:32,237 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:32,238 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:32,464 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:32,465 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:32,465 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:32,466 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:32,466 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:32,471 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:32,653 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:32,655 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:32,656 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:32,658 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:32,829 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:32,832 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:32,833 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:32,835 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:32,909 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:33,014 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:33,016 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:33,017 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:33,018 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:33,199 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:33,200 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:33,200 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:33,201 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:33,385 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:33,386 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:33,386 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:33,387 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:33,644 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:33,644 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:33,645 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:33,646 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:33,810 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:33,811 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:33,811 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:33,812 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:33,920 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:34,002 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:34,003 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:34,004 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:34,005 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:34,188 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:34,190 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:34,191 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:34,192 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: status_report
+2023-06-10 10:41:34,194 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:34,369 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:34,370 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:34,370 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:34,372 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:34,504 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:34,504 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:34,561 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:34,562 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:34,562 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:34,567 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:34,767 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:34,768 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:34,769 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:34,770 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:34,926 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:34,978 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:34,979 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:34,979 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:34,980 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:35,156 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:35,157 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:35,158 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:35,159 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:35,335 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-10 10:41:35,336 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: stop_status
+2023-06-10 10:41:35,346 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:35,493 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:35,493 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:35,494 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:35,603 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:35,604 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:35,604 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:35,605 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:35,805 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:35,805 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:35,806 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:35,808 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:35,943 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:35,988 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:35,989 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:35,989 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:35,992 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:36,169 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:36,170 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:36,170 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:36,171 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:36,347 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:36,349 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:36,349 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:36,351 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:36,527 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:36,528 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:36,528 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:36,529 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:36,532 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:36,534 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:36,723 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:36,723 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:36,724 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:36,727 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:36,904 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:36,905 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:36,905 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:36,906 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:36,959 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:37,212 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:37,213 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:37,214 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:37,215 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:37,400 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:37,401 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:37,402 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:37,403 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:37,569 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:37,569 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:37,570 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:37,571 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:37,747 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:37,748 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:37,748 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:37,750 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:37,965 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:38,006 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:38,008 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:38,008 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:38,010 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:38,187 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:38,188 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:38,188 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:38,189 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:38,372 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:38,373 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:38,374 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:38,375 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:38,562 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:38,562 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:38,590 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:38,590 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:38,591 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:38,593 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:38,777 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:38,778 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:38,778 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:38,783 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:38,969 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:38,971 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:38,971 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:38,977 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:38,978 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:39,151 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:39,152 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:39,153 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:39,154 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:39,326 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:39,327 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:39,327 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:39,327 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: status_report
+2023-06-10 10:41:39,328 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:39,498 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:39,498 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:39,498 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:39,500 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:39,768 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:39,768 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:39,769 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:39,770 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:39,953 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:39,954 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:39,954 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:39,955 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:39,979 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:40,150 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:40,151 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:40,151 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:40,152 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:40,319 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:40,320 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:40,320 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:40,321 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:40,523 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:40,524 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:40,524 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:40,526 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:40,588 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:40,588 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:40,724 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:40,725 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:40,725 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:40,727 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:40,902 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:40,903 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:40,904 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:40,909 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:40,980 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:41,087 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:41,089 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:41,089 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:41,092 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:41,285 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:41,286 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:41,287 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:41,288 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:41,502 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:41,503 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:41,504 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:41,505 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:41,680 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:41,681 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:41,682 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:41,684 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:41,911 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:41,912 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:41,912 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:41,913 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:41,985 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:42,085 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:42,086 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:42,086 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:42,087 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:42,263 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:42,264 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:42,265 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:42,267 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:42,451 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:42,452 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:42,452 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:42,454 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:42,624 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:42,624 ERROR   gpu       :8372 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-10 10:41:42,633 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:42,634 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:42,634 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:42,635 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:42,817 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:42,818 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:42,818 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:42,820 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:43,000 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:43,027 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:43,028 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:43,028 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:43,034 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:43,205 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:43,206 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:43,206 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:43,207 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:43,406 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:43,407 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:43,408 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:43,410 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:43,610 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:43,611 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:43,611 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:43,613 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:43,899 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:43,900 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:43,901 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:43,902 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:44,001 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:44,083 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:44,084 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:44,085 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:44,086 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:44,253 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:44,254 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:44,254 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:44,256 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:44,448 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-10 10:41:44,451 DEBUG   SenderThread:8372 [sender.py:send():375] send: history
+2023-06-10 10:41:44,451 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: summary_record
+2023-06-10 10:41:44,452 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: status_report
+2023-06-10 10:41:44,453 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:44,590 DEBUG   SenderThread:8372 [sender.py:send():375] send: telemetry
+2023-06-10 10:41:44,592 DEBUG   SenderThread:8372 [sender.py:send():375] send: exit
+2023-06-10 10:41:44,592 INFO    SenderThread:8372 [sender.py:send_exit():598] handling exit code: 0
+2023-06-10 10:41:44,592 INFO    SenderThread:8372 [sender.py:send_exit():600] handling runtime: 24
+2023-06-10 10:41:44,593 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:44,593 INFO    SenderThread:8372 [sender.py:send_exit():606] send defer
+2023-06-10 10:41:44,594 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,594 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-10 10:41:44,594 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,594 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-06-10 10:41:44,594 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 1
+2023-06-10 10:41:44,594 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,594 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-10 10:41:44,595 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,595 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-06-10 10:41:44,595 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 2
+2023-06-10 10:41:44,595 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,596 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-10 10:41:44,596 INFO    HandlerThread:8372 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-10 10:41:44,596 DEBUG   SystemMonitor:8372 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-10 10:41:44,606 DEBUG   SystemMonitor:8372 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-10 10:41:44,606 INFO    HandlerThread:8372 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-10 10:41:44,606 DEBUG   SystemMonitor:8372 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-10 10:41:44,607 INFO    HandlerThread:8372 [interfaces.py:finish():202] Joined disk monitor
+2023-06-10 10:41:44,659 ERROR   gpu       :8372 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-06-10 10:41:44,660 INFO    HandlerThread:8372 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-10 10:41:44,660 INFO    HandlerThread:8372 [interfaces.py:finish():202] Joined memory monitor
+2023-06-10 10:41:44,660 INFO    HandlerThread:8372 [interfaces.py:finish():202] Joined network monitor
+2023-06-10 10:41:44,661 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,661 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-06-10 10:41:44,661 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 3
+2023-06-10 10:41:44,661 DEBUG   SenderThread:8372 [sender.py:send():375] send: stats
+2023-06-10 10:41:44,661 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,662 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-10 10:41:44,662 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,662 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-06-10 10:41:44,662 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 4
+2023-06-10 10:41:44,662 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,663 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-10 10:41:44,663 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,663 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-06-10 10:41:44,663 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 5
+2023-06-10 10:41:44,663 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,663 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-10 10:41:44,664 DEBUG   SenderThread:8372 [sender.py:send():375] send: summary
+2023-06-10 10:41:44,665 INFO    SenderThread:8372 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-10 10:41:44,666 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,666 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-06-10 10:41:44,666 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 6
+2023-06-10 10:41:44,666 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,667 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-10 10:41:44,667 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,668 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-06-10 10:41:44,672 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: status_report
+2023-06-10 10:41:44,880 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 7
+2023-06-10 10:41:44,880 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:44,880 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-10 10:41:44,881 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:44,881 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-06-10 10:41:45,007 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\config.yaml
+2023-06-10 10:41:45,007 INFO    Thread-53 :8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:45,609 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-10 10:41:46,870 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 8
+2023-06-10 10:41:46,870 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: poll_exit
+2023-06-10 10:41:46,871 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:46,871 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-10 10:41:46,872 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:46,872 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-06-10 10:41:46,873 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 9
+2023-06-10 10:41:46,874 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:46,874 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-10 10:41:46,875 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:46,875 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-06-10 10:41:46,875 INFO    SenderThread:8372 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-10 10:41:47,034 INFO    SenderThread:8372 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\output.log
+2023-06-10 10:41:47,035 INFO    SenderThread:8372 [dir_watcher.py:finish():395] scan: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files
+2023-06-10 10:41:47,036 INFO    SenderThread:8372 [dir_watcher.py:finish():409] scan save: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\config.yaml config.yaml
+2023-06-10 10:41:47,037 INFO    SenderThread:8372 [dir_watcher.py:finish():409] scan save: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\output.log output.log
+2023-06-10 10:41:47,046 INFO    SenderThread:8372 [dir_watcher.py:finish():409] scan save: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\requirements.txt requirements.txt
+2023-06-10 10:41:47,066 INFO    SenderThread:8372 [dir_watcher.py:finish():409] scan save: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-metadata.json wandb-metadata.json
+2023-06-10 10:41:47,068 INFO    SenderThread:8372 [dir_watcher.py:finish():409] scan save: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json wandb-summary.json
+2023-06-10 10:41:47,090 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 10
+2023-06-10 10:41:47,094 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:47,104 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-10 10:41:47,114 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:47,115 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-06-10 10:41:47,116 INFO    SenderThread:8372 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-10 10:41:47,581 INFO    wandb-upload_0:8372 [upload_job.py:push():137] Uploaded file c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\config.yaml
+2023-06-10 10:41:47,673 INFO    wandb-upload_1:8372 [upload_job.py:push():137] Uploaded file c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\output.log
+2023-06-10 10:41:47,754 INFO    wandb-upload_2:8372 [upload_job.py:push():137] Uploaded file c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\requirements.txt
+2023-06-10 10:41:47,776 INFO    wandb-upload_3:8372 [upload_job.py:push():137] Uploaded file c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\files\wandb-summary.json
+2023-06-10 10:41:47,988 INFO    Thread-52 :8372 [sender.py:transition_state():626] send defer: 11
+2023-06-10 10:41:47,988 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:47,989 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-10 10:41:47,989 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:47,990 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-06-10 10:41:47,990 INFO    SenderThread:8372 [file_pusher.py:join():172] waiting for file pusher
+2023-06-10 10:41:47,990 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 12
+2023-06-10 10:41:47,991 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:47,991 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-10 10:41:47,992 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:47,992 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-06-10 10:41:48,170 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 13
+2023-06-10 10:41:48,171 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:48,171 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-10 10:41:48,172 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:48,172 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-06-10 10:41:48,172 INFO    SenderThread:8372 [sender.py:transition_state():626] send defer: 14
+2023-06-10 10:41:48,174 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: defer
+2023-06-10 10:41:48,174 INFO    HandlerThread:8372 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-10 10:41:48,174 DEBUG   SenderThread:8372 [sender.py:send():375] send: final
+2023-06-10 10:41:48,175 DEBUG   SenderThread:8372 [sender.py:send():375] send: footer
+2023-06-10 10:41:48,176 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: defer
+2023-06-10 10:41:48,176 INFO    SenderThread:8372 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-06-10 10:41:48,178 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-10 10:41:48,178 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: server_info
+2023-06-10 10:41:48,179 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-10 10:41:48,180 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: poll_exit
+2023-06-10 10:41:48,180 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-10 10:41:48,181 DEBUG   SenderThread:8372 [sender.py:send_request():402] send_request: server_info
+2023-06-10 10:41:48,488 DEBUG   HandlerThread:8372 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-10 10:41:48,488 INFO    HandlerThread:8372 [handler.py:finish():842] shutting down handler
+2023-06-10 10:41:49,187 INFO    WriterThread:8372 [datastore.py:close():298] close: c:\Users\galse\DS50\contruct_model\wandb\run-20230610_104118-vpwygrex\run-vpwygrex.wandb
+2023-06-10 10:41:49,502 INFO    SenderThread:8372 [sender.py:finish():1550] shutting down sender
+2023-06-10 10:41:49,502 INFO    SenderThread:8372 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-10 10:41:49,502 INFO    SenderThread:8372 [file_pusher.py:join():172] waiting for file pusher
